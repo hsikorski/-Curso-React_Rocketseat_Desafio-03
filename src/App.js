@@ -43,7 +43,7 @@ function App() {
             <br />
             <a href={item.url} target="_blank">Acessar</a>
             <button onClick={() => handleRemoveRepository(item.id)}>
-              X 
+              Remover 
             </button>
         </li>
         ))}        
