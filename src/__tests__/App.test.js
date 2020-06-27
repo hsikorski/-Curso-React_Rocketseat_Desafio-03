@@ -57,7 +57,7 @@ describe("App component", () => {
 
     await actWait();
 
-    fireEvent.click(getByText("X"));
+    fireEvent.click(getByText("Remover"));
 
     await actWait();
 
